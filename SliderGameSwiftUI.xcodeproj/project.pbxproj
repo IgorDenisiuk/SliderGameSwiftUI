@@ -13,6 +13,10 @@
 		059387BA261C74CD001CD87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059387B9261C74CD001CD87A /* Assets.xcassets */; };
 		059387BD261C74CD001CD87A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059387BC261C74CD001CD87A /* Preview Assets.xcassets */; };
 		059387C0261C74CD001CD87A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059387BE261C74CD001CD87A /* LaunchScreen.storyboard */; };
+		059387CD261C7AA0001CD87A /* GameSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059387CC261C7AA0001CD87A /* GameSlider.swift */; };
+		059387D0261C7C0A001CD87A /* LabelValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059387CF261C7C0A001CD87A /* LabelValue.swift */; };
+		059387D7261C7CFB001CD87A /* GameUIKitSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059387D6261C7CFB001CD87A /* GameUIKitSlider.swift */; };
+		059387DA261C82AE001CD87A /* ButtonTapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059387D9261C82AE001CD87A /* ButtonTapped.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		059387BC261C74CD001CD87A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		059387BF261C74CD001CD87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		059387C1261C74CD001CD87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059387CC261C7AA0001CD87A /* GameSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSlider.swift; sourceTree = "<group>"; };
+		059387CF261C7C0A001CD87A /* LabelValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelValue.swift; sourceTree = "<group>"; };
+		059387D6261C7CFB001CD87A /* GameUIKitSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUIKitSlider.swift; sourceTree = "<group>"; };
+		059387D9261C82AE001CD87A /* ButtonTapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapped.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				059387B3261C74CA001CD87A /* AppDelegate.swift */,
 				059387B5261C74CA001CD87A /* SceneDelegate.swift */,
 				059387B7261C74CA001CD87A /* ContentView.swift */,
+				059387CC261C7AA0001CD87A /* GameSlider.swift */,
+				059387D6261C7CFB001CD87A /* GameUIKitSlider.swift */,
+				059387CF261C7C0A001CD87A /* LabelValue.swift */,
+				059387D9261C82AE001CD87A /* ButtonTapped.swift */,
 				059387B9261C74CD001CD87A /* Assets.xcassets */,
 				059387BE261C74CD001CD87A /* LaunchScreen.storyboard */,
 				059387C1261C74CD001CD87A /* Info.plist */,
@@ -145,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				059387CD261C7AA0001CD87A /* GameSlider.swift in Sources */,
+				059387D0261C7C0A001CD87A /* LabelValue.swift in Sources */,
 				059387B4261C74CA001CD87A /* AppDelegate.swift in Sources */,
+				059387D7261C7CFB001CD87A /* GameUIKitSlider.swift in Sources */,
+				059387DA261C82AE001CD87A /* ButtonTapped.swift in Sources */,
 				059387B6261C74CA001CD87A /* SceneDelegate.swift in Sources */,
 				059387B8261C74CA001CD87A /* ContentView.swift in Sources */,
 			);
